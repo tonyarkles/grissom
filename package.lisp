@@ -1,4 +1,5 @@
 ;;;; package.lisp
 
 (defpackage #:grissom
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:start-server))

@@ -4,7 +4,9 @@ A Common Lisp Gemini Server
 # TODO List
 
 - [ ] Basic project setup
-
+  - https://xach.livejournal.com/278047.html
+  - https://common-lisp.net/project/asdf/asdf/Configuring-ASDF-to-find-your-systems.html
+  
 From the specification
 
 1.1 Gemini Transactions
