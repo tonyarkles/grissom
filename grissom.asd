@@ -6,5 +6,6 @@
   :license  "Specify license here"
   :version "0.0.1"
   :serial t
+  :depends-on (#:cl+ssl #:cl-interpol #:usocket #:usocket-server)
   :components ((:file "package")
                (:file "grissom")))
