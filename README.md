@@ -1,6 +1,12 @@
 # grissom
 A Common Lisp Gemini Server
 
+# Self-signed certs
+
+```
+openssl req -x509 -newkey rsa:4096 -nodes -subj "/CN=grissom-default" -keyout key.pem -out cert.pem -days 365
+```
+
 # TODO List
 
 - [ ] Basic project setup
@@ -11,8 +17,8 @@ From the specification
 
 1.1 Gemini Transactions
 
-- [ ] Listen on a port for incoming HTTPS requests
-- [ ] Handle server certificates
+- [x] Listen on a port for incoming TLS requests
+- [x] Handle server certificates
 - [ ] Parse request
 - [ ] Send response header
 - [ ] Send response body
